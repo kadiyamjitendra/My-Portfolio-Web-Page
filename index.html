@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Roles Into</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Data Scientist/Analyst/Engineer </p>
+            <h1>Hi, I'm <span>Jitendra</span><br> From Charlotte</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="text-align: justify;">
+                    <b>3+ years of experience</b> in <b>Data Analytics</b> and <b>Machine Learning</b>, delivering <b>actionable insights</b> for 
+                    <b>strategic decision-making</b>. A <b>Master’s Graduate</b> and <b>Data-Driven Professional</b>, inspired by an 
+                    internship at <b>Flipkart (owned by Walmart)</b>, where I was <b>selected from 20,000 applicants</b> as one of 
+                    <b>130 interns</b> to <b>optimize warehouse efficiency</b> using <b>data-driven solutions</b>. This <b>hands-on experience</b> 
+                    led me to <b>self-learn</b> <b>Machine Learning</b>, <b>Statistics</b>, and <b>Data Visualization</b> to tackle <b>real-world problems</b>. 
+                    Now, I am eager to apply my <b>expertise</b> and <b>passion</b> to drive <b>data-driven decision-making</b> in the industry. 🚀
+                </p>
+                
+                
+                
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python, Java, R</li>
+                            <li><span>Databases</span><br>MySQL, Excel</li>
+                            <li><span>Data Science Toolkit</span><br>Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, LightGBM, spaCy, NLTK, Plotly, SciPy, Statsmodels, OpenCV, PySpark, Dask, SQLAlchemy, Flask, FastAPI, SHAP, LIME</li>
+                            <li><span>Data Visualization</span><br>Matplotlib, Seaborn, Power BI, Tableau, Looker Studio</li>
+                            <li><span>Machine Learning</span><br>Supervised Learning, Unsupervised Learning, XGBoost, LightGBM</li>
+                            <li><span>Natural Language Processing (NLP)</span><br>NLTK, SpaCy, Hugging Face, YOLO, BERT</li>
+                            <li><span>Deep Learning Algorithms</span><br>CNNs, RNNs, LSTMs, GANs, Transformers</li>
+                            <li><span>Big Data & Cloud Technologies</span><br>AWS (S3, EC2, Redshift), Google Cloud (BigQuery), Hadoop, Spark</li>
+                            <li><span>Deployment & MLOps</span><br>Flask, FastAPI, Docker, Kubernetes</li>
+                            <li><span>Statistics & Mathematical Skills</span><br>Probability Theory, Hypothesis Testing, Bayesian Inference, Regression Analysis, Statistical Modeling, Time Series Analysis, ANOVA, Principal Component Analysis (PCA), A/B Testing</li>
+                        </ul>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span><b>Aug 2023 – Dec 2024 (Part-time)</b></span><br><b>AI/ML Engineer | Global IT Solutions Inc., McKinney, Texas</b></li>
+                        <ul>
+                            <li><span><b>Project</b></span><br>SAP Build Process Automation</li>
+                            <ul>
+                                <li><span><b>Technologies Used</b></span><br>SAP BTP, SAP BPA, SAP AI Core, SAP HANA, Process Visibility (Dashboard), NLP (BERT), OCR</li>
+                                <li><span><b>Roles & Responsibilities</b></span>
+                                    <ul>
+                                        <li>• Automated <b>invoice processing</b> using <b>OCR</b>, <b>AI Core</b>, and <b>NLP</b> in SAP BPA, reducing manual effort by <b>80%</b>.</li>
+                                        <li>• Developed <b>interactive dashboards</b> and <b>analytics</b>, improving data visibility by <b>60%</b> through SAP Process Visibility.</li>
+                                        <li>• Optimized <b>SAP workflows</b>, enhancing process efficiency by <b>40%</b> with AI-driven automation in SAP BTP.</li>
+                                        <li>• Reduced <b>data retrieval time</b> by <b>50%</b> using SAP HANA, ensuring faster access to critical insights.</li>
+                                        <li>• Integrated <b>SAP BPA</b> with dashboards, enabling real-time tracking and reducing reporting time by <b>35%</b>.</li>
+                                        <li>• Improved <b>document processing accuracy</b> by <b>90%</b> using AI-based extraction models in SAP AI Core.</li>
+                                        <li>• Automated <b>end-to-end invoice handling</b>, cutting processing time from hours to minutes.</li>
+                                        <li>• Collaborated with <b>cross-functional teams</b>, ensuring seamless integration and zero downtime deployment.</li>
+                                        <li>• Enhanced <b>workflow monitoring</b> with predictive analytics, reducing errors by <b>25%</b>.</li>
+                                        <li>• Streamlined <b>data flow</b> between SAP BTP modules, improving overall system performance by <b>30%</b>.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+                    </ul>
+                    
+                    
+                    
+                    
+                    <ul>
+                        <li><span><b>Sep 2022 – July 2023 (Full-time)</b></span><br><b>Programmer Analyst Trainee | Cognizant Technology Solutions, Chennai, India</b></li>
+                        <ul>
+                            <li><span><b>Skills Used</b></span><br>Power BI, SQL, Python, Pandas, NumPy, Excel, ETL, Machine Learning, Scikit-Learn, Data Analysis</li>
+                            <li><span><b>Roles & Responsibilities</b></span>
+                                <ul>
+                                    <li>• Designed a <b>Sales Performance Dashboard</b> in Power BI and SQL, improving decision-making efficiency by <b>40%</b>.</li>
+                                    <li>• Optimized <b>ETL pipelines</b>, reducing data extraction time from <b>2 hours to 30 minutes</b> (<b>75%</b> improvement).</li>
+                                    <li>• Analyzed <b>customer purchasing behavior</b> using Python, increasing revenue by <b>15%</b> through targeted marketing.</li>
+                                    <li>• Automated <b>data cleaning & validation</b> using SQL & Excel, improving accuracy by <b>98%</b> & reducing manual efforts by <b>60%</b>.</li>
+                                    <li>• Developed <b>predictive models</b> using machine learning, reducing inventory costs by <b>25%</b> and minimizing stockouts.</li>
+                                    <li>• Implemented <b>anomaly detection</b> in sales data using Python, identifying fraud patterns and reducing losses by <b>20%</b>.</li>
+                                    <li>• Integrated <b>real-time data streaming</b> with Power BI, enabling <b>50%</b> faster insights for business operations.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                    
+
+                        
+                    <ul>
+                        <li><span><b>Feb 2022 – July 2022 (Intern)</b></span><br><b>Data Analyst | Flipkart, Bangalore, India</b></li>
+                        <ul>
+                            <li><span><b>Skills Used</b></span><br>Python, SQL, Excel, Machine Learning, Power BI</li>
+                            <li><span><b>Roles & Responsibilities</b></span>
+                                <ul>
+                                    <li>• Improved <b>IPP (Item Per Person)</b> by <b>15%</b> using Python, SQL, and Excel, optimizing warehouse efficiency.</li>
+                                    <li>• Designed a <b>grid system</b>, saving <b>20%</b> of warehouse space with Power BI and data analytics.</li>
+                                    <li>• Analyzed <b>dock utilization</b> using machine learning models, reducing turnaround time.</li>
+                                    <li>• Developed a <b>cost-effective supply chain network</b> using lean methodology and data-driven insights.</li>
+                                    <li>• Applied <b>SQL and Python automation</b>, enhancing speed, quality, and cost in logistics operations.</li>
+                                    <li>• Designed and tracked <b>Key Performance Indicators (KPIs)</b> in Power BI, improving monitoring.</li>
+                                    <li>• Conducted <b>Root Cause Analysis (RCA)</b> with data mining, identifying inefficiencies and solutions.</li>
+                                    <li>• Provided <b>executive updates</b> using SQL-based dashboards, enabling data-driven decisions.</li>
+                                    <li>• Optimized <b>logistics planning</b> using predictive analytics, reducing delays and improving workflow.</li>
+                                    <li>• Automated <b>data reporting</b> with Python scripts, increasing accuracy and reducing manual effort.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                    
+                        
+                            
+
+                    
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <ul>
+                            <ul>
+                                <li><span><b>Aug 2023 - Dec 2024</b></span><br><b>Master of Science in Data Science</b> | University of New Haven<br><b>GPA:</b> 3.8/4.0<br><b>Honors/Awards:</b> Awarded 30% Dean’s Scholarship</li>
+                                <li><span><b>Aug 2018 - Aug 2022</b></span><br><b>Bachelor of Technology in Mechanical Engineering</b> | Vellore Institute of Technology<br><b>CGPA:</b> 8.67/10.0<br><b>Honors/Awards:</b> Best Outgoing Student of the Year 2022 | 100% Scholarship at India’s No. 1 Private University<br><b>Selected by Top Companies:</b> Flipkart, L&T Construction, Cognizant</li>
+                            </ul>
+                            
+                        </ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Roles Into</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Data Scientist</h2>
+                <p>
+                    "Leveraging <b>advanced machine learning</b> and <b>statistical modeling</b> to extract meaningful insights from <b>complex datasets</b>.<br><br>  
+                    Passionate about developing <b>predictive models</b> and <b>AI-driven solutions</b> that drive business impact.<br><br>  
+                    Experienced in <b>Python</b>, <b>SQL</b>, and <b>cloud computing</b>, with a strong foundation in <b>probability</b>, <b>statistics</b>, and <b>deep learning</b>."
+                </p>
+                
+
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Data Analyst</h2>
+                <p>
+                    "Transforming <b>raw data</b> into <b>actionable insights</b> through <b>analytics</b>, <b>visualization</b>, and <b>storytelling</b>.<br><br>  
+                    Proficient in <b>SQL</b>, <b>Excel</b>, and <b>BI tools</b> like <b>Power BI</b>, with expertise in <b>identifying trends</b> and <b>optimizing business strategies</b>.<br><br>  
+                    Adept at working with <b>large datasets</b> to improve <b>decision-making</b> and <b>operational efficiency</b>."
+                </p>
+                
+
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Data Engineer</h2>
+                <p>
+                    "Building <b>scalable</b>, <b>efficient</b>, and <b>reliable data pipelines</b> for seamless <b>data processing</b> and <b>analysis</b>.<br><br>  
+                    Experienced in designing <b>ETL workflows</b>, <b>database management</b>, and <b>cloud-based data solutions</b>.<br><br>  
+                    Proficient in <b>Python</b>, <b>SQL</b>, and <b>big data technologies</b> like <b>Spark</b> and <b>AWS</b>, ensuring robust <b>data infrastructure</b> for <b>analytics</b> and <b>AI applications</b>."
+                </p>
+                
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <!-- Existing 3 projects -->
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Comparative Analysis of Object Tracking Algorithms: Mean Shift vs. CSRT</h3>
+                    <p>Objective: Evaluated the performance of Mean Shift and CSRT algorithms in dynamic environments.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>AI-Powered One-Up Puzzle Solver</h3>
+                    <p>Objective: Developed a framework to efficiently solve One-Up Puzzles using backtracking, constraint satisfaction, and visualizations.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Smart Supply Chain for E-Commerce</h3>
+                    <p><b>Business Scenario:</b> The rapid growth of online shopping calls for more efficient supply chains. <b>Real-time tracking</b> and <b>predictive analytics</b> can help address inefficiencies and enhance e-commerce operations.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- New 3 projects (Add these just below the above ones) -->
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Natural Language Processing (NLP) Project</h3>
+                    <p>Objective:Emotion Analysis and Detection in Mental Health</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3>Handwritten Devanagari Script Recognition Using CNNs</h3>
+                    <p>Objective: Developed a CNN-based system for recognizing handwritten Devanagari characters.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-6.png">
+                <div class="layer">
+                    <h3>Artificial Intelligence Project: Snake Game using Reinforcement Learning </h3>
+                    <p>Objective: Developed a dynamic game environment with a Deep Neural Network (DNN) in PyTorch for efficient action predictions, optimizing agent performance through key metrics and convergence checks.</p>
+
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="profiles">
+    <div class="container">
+        <h1 class="sub-title">Public Profiles</h1>
+        <div class="profile-list">
+            <!-- Profile 1 -->
+            <div class="profile">
+                <img src="images/user1.png" alt="Profile 1">
+                <h3>Jitendra Prasad Kadiyam</h3>
+                <a href="https://www.linkedin.com/in/jitendra-prasad-kadiyam-6025041a9" target="_blank">LinkedIn</a>
+                
+            </div>
+            <!-- Profile 2 -->
+            <div class="profile">
+                <img src="images/user2.png" alt="Profile 2">
+                <h3>kadiyamjitendra</h3>
+                <a href="https://github.com/kadiyamjitendra" target="_blank">GitHub</a>
+            </div>
+            <!-- Profile 3 -->
+            <div class="profile">
+                <img src="images/user3.png" alt="Profile 3">
+                <h3>Jithu_shutterbug</h3>
+                <a href="https://www.instagram.com/jithu_shutterbug/" target="_blank">Instagram</a>
+            </div>
+            <!-- Profile 4 -->
+            <div class="profile">
+                <img src="images/user4.png" alt="Profile 4">
+                <h3>Jitendra Prasad Kadiyam</h3>
+                <a href="https://www.facebook.com/sappani.janu/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> kadiyamjitendra@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1(203)-812-9285</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jitendra Prasad Kadiyam. Made wtih <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1">Easy Tutorials</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
